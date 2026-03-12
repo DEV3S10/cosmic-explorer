@@ -228,6 +228,6 @@ MIT — free to use for your own projects and portfolio.
 ---
 
 <div align="center">
-  <p>Built with ❤️ and a lot of ☕ — powered by NASA's open data</p>
+  <p>Built with ❤️ and a lot of ☕ — powered by NASA's open data 👽🍀🤖</p>
   <p>⭐ Star this repo if you found it useful!</p>
 </div>
