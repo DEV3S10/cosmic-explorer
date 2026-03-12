@@ -1,0 +1,26 @@
+<!doctype html>
+<head>
+  <meta charset="UTF-8" />
+
+  <!-- Emoji favicon — works in all modern browsers -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌌</text></svg>" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CosmicExplorer 3D</title>
+  <script>
+    // Handle redirect from 404.html
+    (function() {
+      var redirect = window.location.search.slice(1);
+      if (redirect.startsWith('p=')) {
+        var path = '/' + decodeURIComponent(redirect.slice(2));
+        window.history.replaceState(null, null, path);
+      }
+    })();
+  </script>
+  <script type="module" crossorigin src="/cosmic-explorer/assets/index-DXBc57jn.js"></script>
+  <link rel="stylesheet" crossorigin href="/cosmic-explorer/assets/index-TiSvmoJ3.css">
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
