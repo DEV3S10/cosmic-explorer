@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>CosmicExplorer</title>
+  <script>
+    // Redirect 404s back to index.html preserving the path
+    // so React Router can handle it
+    var path = window.location.pathname;
+    var query = window.location.search;
+    var hash = window.location.hash;
+    var redirect = '/?p=' + encodeURIComponent(
+            path.slice(1) + query + hash
+    );
+    window.location.replace(redirect);
+  </script>
+</head>
+<body></body>
+</html>

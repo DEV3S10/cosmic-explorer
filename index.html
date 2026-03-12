@@ -7,6 +7,16 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CosmicExplorer 3D</title>
+  <script>
+    // Handle redirect from 404.html
+    (function() {
+      var redirect = window.location.search.slice(1);
+      if (redirect.startsWith('p=')) {
+        var path = '/' + decodeURIComponent(redirect.slice(2));
+        window.history.replaceState(null, null, path);
+      }
+    })();
+  </script>
 </head>
   <body>
     <div id="root"></div>
