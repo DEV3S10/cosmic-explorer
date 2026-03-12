@@ -1,9 +1,9 @@
 {
+  "homepage": "https://DEV3S10.github.io/cosmic-explorer",
   "name": "cosmic-explorer",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://DEV3S10.github.io/cosmic-explorer",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

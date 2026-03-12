@@ -9,10 +9,8 @@ import SpaceEvents from './pages/SpaceEvents'
 
 function App() {
     return (
-        // BrowserRouter enables URL-based navigation
-        <BrowserRouter>
+        <BrowserRouter basename="/cosmic-explorer">
             <Routes>
-                {/* AppLayout wraps ALL routes — it provides the Navbar + Sidebar */}
                 <Route path="/" element={<AppLayout />}>
                     <Route index element={<Dashboard />} />
                     <Route path="solar-system" element={<SolarSystem />} />
